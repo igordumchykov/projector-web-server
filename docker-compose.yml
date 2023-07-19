@@ -2,10 +2,11 @@ version: '3'
 
 services:
   nginx:
-    image: emcniece/nginx-cache-purge:latest
+    image: firesh/nginx-lua:latest
     volumes:
       - ./images:/usr/share/nginx/images/
       - ./cache:/data/nginx/cache/
       - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./sripts.lua:/etc/nginx/sripts.lua
     ports:
       - '80:80'
