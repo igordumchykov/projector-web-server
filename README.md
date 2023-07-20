@@ -146,3 +146,6 @@ ETag: "64b64ab0-33aea"
 X-Cache-Status: HIT
 X-Nginx-Cache-Head: httplocalhost/image/dog.jpeg
 ```
+
+# TODO
+Take a look at [OpenResty](https://openresty.org/en/)
